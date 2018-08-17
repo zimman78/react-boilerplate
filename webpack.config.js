@@ -1,4 +1,14 @@
-let path = require('path');
+const path = require('path');
+
+const moduleObj = {
+	loaders: [
+		{
+			test: /\.js$/,
+			exclude: /node_modules/,
+			loaders: ["babel-loader"]
+		}
+	],
+};
 
 const client = {
 	entry: {
@@ -8,7 +18,8 @@ const client = {
 	output: {
 		filename: '[name].js',
 		path: path.resolve(__dirname, 'dist/public')
-	}
+	},
+	module: moduleObj
 };
 
 const server = {
@@ -19,7 +30,8 @@ const server = {
 	output: {
 		filename: '[name].js',
 		path: path.resolve(__dirname, 'dist')
-	}
+	},
+	module: moduleObj
 };
 
 module.exports = [client, server];
