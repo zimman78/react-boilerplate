@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/zimman78/react-boilerplate/issues"
   },
-  "homepage": "https://github.com/zimman78/react-boilerplate#readme"
+  "homepage": "https://github.com/zimman78/react-boilerplate#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
