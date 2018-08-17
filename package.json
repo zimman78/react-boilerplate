@@ -1,0 +1,19 @@
+{
+  "name": "react-boilerplate",
+  "version": "1.0.0",
+  "description": "boilerplate for react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zimman78/react-boilerplate.git"
+  },
+  "author": "Kyle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zimman78/react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/zimman78/react-boilerplate#readme"
+}
